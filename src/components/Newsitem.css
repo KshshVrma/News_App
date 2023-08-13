@@ -1,0 +1,14 @@
+ .card :hover{
+    transform: scaleX(105%);
+    transform: scaleY(105%);
+    /* transform:scaleZ(105%); */
+}
+.card{
+    border-radius: 20px;
+}
+/* body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+} */
+
