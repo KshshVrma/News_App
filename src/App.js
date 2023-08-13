@@ -10,7 +10,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Kas></Kas>
+        {/* <Kas></Kas> */}
 <News></News>
       </div>
     )

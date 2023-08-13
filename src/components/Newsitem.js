@@ -1,5 +1,6 @@
 import { Title } from '@testing-library/react'
 import React, { Component } from 'react'
+import "./Newsitem.css";
 
 export class Newsitem extends Component {
 

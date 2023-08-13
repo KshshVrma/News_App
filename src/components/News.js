@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Newsitem from "./Newsitem";
+import "./News.css";
 
 export class News extends Component {
   articles = [
