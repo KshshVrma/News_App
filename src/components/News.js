@@ -92,7 +92,7 @@ export class News extends Component {
     return (
 
       <div className="container my-3">
-        <h1>News-top headlines</h1>
+        <h1>NEWS</h1>
     
         <div className="row">
         {this.state.article.map((element)=>{
