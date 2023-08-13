@@ -78,7 +78,7 @@ export class News extends Component {
   
 
   async componentDidMount(){
-    let urly="https://newsapi.org/v2/top-headlines?country=in&apiKey=62a3fcd0c0f5405e84e3e9ccd671045a"
+    let urly="/v2/top-headlines?country=in&apiKey=62a3fcd0c0f5405e84e3e9ccd671045a"
     let data=await fetch(urly);
     let parsedData=await data.json()
     console.log(data);
